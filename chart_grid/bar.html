@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Bar Chart</title>
+    <script src="./draw2d.js"></script>
+	<style>
+    canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container" style="width: 75%;">
+        <canvas id="canvas" style="display: block;"></canvas>
+    </div>
+	<div id="controls">
+		颜色:<select id="strokecolor">
+		<option value="Red">红色</option>
+		<option value="Green">绿色</option>
+		<option value="Blue">蓝色</option>
+		<option value="Orange">橙色</option>
+		<option value="CornflowerBlue">天蓝</option>
+		<option value="GoldenRod">金黄</option>
+		<option value="Navy">海蓝</option>
+		<option value="Purple">紫色</option>
+		</select>
+	</div>
+</body>
+
+</html>
